@@ -1,3 +1,10 @@
+教程学习目标：
+
+- 理解Pytorch 的 Tensor库，以及神经网络。
+- 训练一个简单的图像分类网络。
+  
+假设已经了解numpy的基本用法，并确保已经安装好torch和torchvision。
+
 # 什么是PyTorch？
 
 > 译者注：本教程在pytorch官方教程的基础上翻译修改得到,代码输出是在本人在自己笔记本上运行之后放上去的，可能会和官方的输出结果有所不同，一切输出结果按照官方教程为准,原教程请点击[pytorch-official-tutorial](https://pytorch.org/tutorials/index.html)
@@ -9,7 +16,7 @@ PyTorch是一个基于python的科学计算包，主要针对两类人群：
 
 ## 入门指南：
 
-### 张量
+### 张量(Tensor)
 
 Tensor（张量）类似于NumPy的ndarray，但还可以在GPU上使用来加速计算。
 
@@ -118,7 +125,7 @@ torch.Size([5, 3])
 - 注意：  
   torch.Size实际上是一个元组(tuple)，所以它支持所有的元组操作。
 
-### 运算
+### 运算（Operations）
 操作有多种语法。在下面的示例中，我们将研究加法操作。
 
 加法：语法1
@@ -232,7 +239,7 @@ tensor([0.8693])
 
 这里我给出pytorch中文文档 有需要的可以参照阅读学习，中文文档地址：https://github.com/apachecn/pytorch-doc-zh
 
-## Numpy 桥
+## 对接Numpy
 
 将一个Torch张量转换为一个NumPy数组是轻而易举的事情，反之亦然。
 
