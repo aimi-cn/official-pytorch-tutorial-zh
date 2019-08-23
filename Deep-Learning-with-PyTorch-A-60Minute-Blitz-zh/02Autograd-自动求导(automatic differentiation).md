@@ -1,5 +1,9 @@
 # Autograd-自动求导(automatic differentiation)
 
+> 搜索微信公众号:'AI-ming3526'或者'计算机视觉这件小事' 获取更多算法、机器学习干货  
+> csdn：https://blog.csdn.net/baidu_31657889/  
+> github：https://github.com/aimi-cn/AILearners
+
 > 译者注：本教程在pytorch官方教程的基础上翻译修改得到,代码输出是在本人在自己笔记本上运行之后放上去的，可能会和官方的输出结果有所不同，一切输出结果按照官方教程为准,原教程请点击[pytorch-official-tutorial](https://pytorch.org/tutorials/index.html)
 
 PyTorch中，所有神经网络的核心是autograd包。先简单介绍一下这个包，然后训练我们的第一个的神经网络。
